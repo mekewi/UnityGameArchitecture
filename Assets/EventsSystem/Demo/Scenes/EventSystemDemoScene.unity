@@ -635,6 +635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onLevelWin: {fileID: 11400000, guid: 4744d56d14e78410eb53a64eb33769d0, type: 2}
   Fire: {fileID: 11400000, guid: 6f8716d4746794a1f943ea8c02e7eae4, type: 2}
+  health: {fileID: 11400000, guid: 503abf15409144065817770deb8e5975, type: 2}
 --- !u!4 &1776997472
 Transform:
   m_ObjectHideFlags: 0
