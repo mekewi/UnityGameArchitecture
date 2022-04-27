@@ -1,0 +1,6 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public class #SCRIPTNAME#Listener : EventListenerBase<T,E>
+{
+}
