@@ -1,0 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Variables.Scripts.VariableBase;
+namespace ProjectArchitectureBase.BaseScriptsRuntime.Constant
+{
+    [CreateAssetMenu(menuName = "Constant/#TYPE#", fileName = "#SCRIPTNAME#")]
+    public class #SCRIPTNAME# : VariableBase<#TYPE#>
+    {
+    }
+}
