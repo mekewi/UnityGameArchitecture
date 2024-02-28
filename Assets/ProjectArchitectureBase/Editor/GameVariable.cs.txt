@@ -1,7 +1,7 @@
 using UnityEngine;
-using ProjectArchitectureBase.BaseScriptsRuntime.Event;
-
-namespace Variables.Scripts.VariableBase.Variables
+using ProjectArchitectureBase.Event;
+using ProjectArchitectureBase.VariableBase;
+namespace ProjectArchitectureBase.Variables
 {
     [CreateAssetMenu(menuName = "Variables/#TYPE#", fileName = "#SCRIPTNAME#")]
     public class #SCRIPTNAME# : Variable<#TYPE#,#EVENTCLASS#>

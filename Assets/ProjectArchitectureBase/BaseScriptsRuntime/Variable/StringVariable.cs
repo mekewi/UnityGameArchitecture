@@ -1,7 +1,8 @@
 using UnityEngine;
-using ProjectArchitectureBase.BaseScriptsRuntime.Event;
+using ProjectArchitectureBase.Event;
+using ProjectArchitectureBase.VariableBase;
 
-namespace Variables.Scripts.VariableBase.Variables
+namespace ProjectArchitectureBase.Variables
 {
     [CreateAssetMenu(menuName = "Variables/string", fileName = "StringVariable")]
     public class StringVariable : Variable<string,StringEvent>

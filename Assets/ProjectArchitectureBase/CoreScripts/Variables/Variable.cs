@@ -1,7 +1,7 @@
 using EventsSystem.Scripts.Observables;
 using UnityEngine;
 
-namespace Variables.Scripts.VariableBase
+namespace ProjectArchitectureBase.VariableBase
 {
     public abstract class Variable<T,TE> : VariableBase<T> where TE : Observable<T>
     {

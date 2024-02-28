@@ -1,10 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using EventsSystem.Scripts.Observables;
-using ProjectArchitectureBase.BaseScriptsRuntime.Event;
-
-namespace ProjectArchitectureBase.BaseScriptsRuntime.EventListener
+using ProjectArchitectureBase.Event;
+namespace ProjectArchitectureBase.EventListener
 {
     public class #SCRIPTNAME# : EventListenerBase<#TYPE#,#EVENTCLASS#>
     {

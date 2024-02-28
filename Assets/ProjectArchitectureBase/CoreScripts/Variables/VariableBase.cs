@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Variables.Scripts.VariableBase
+namespace ProjectArchitectureBase.VariableBase
 {
     public abstract class VariableBase<T> :ScriptableObject
     {
