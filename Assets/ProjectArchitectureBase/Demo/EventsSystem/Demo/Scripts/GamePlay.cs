@@ -1,19 +1,13 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using ProjectArchitectureBase.BaseScriptsRuntime.Event;
+using ProjectArchitectureBase.Event;
+using ProjectArchitectureBase.Variables;
 using UnityEngine;
-using Variables.Scripts.VariableBase.Variables;
 
 public class GamePlay : MonoBehaviour
 {
     public VoidEvent onLevelWin;
     public StringEvent Fire;
     public IntVariable health;
-    private void Start()
-    {
-    }
-    
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -26,7 +20,6 @@ public class GamePlay : MonoBehaviour
             health.Value = 4;
         }
     }
-
     public void OnLevelWin()
     {
         Debug.Log("LevelWin");
